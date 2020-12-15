@@ -9,6 +9,7 @@
 <body>
 <img id="logo" src="img/cat.png">
 <div id="data">
-<script src="js/app.js"></script>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/app.js"></script>
 </html>

@@ -1,0 +1,29 @@
+body{
+    background-color: #EEDAE8;
+}
+#logo{
+    width: 12%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    border-radius: 6%;
+    border: 2px solid white;
+}
+#logo:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  #RandomCat{
+      text-align: center;
+      color: grey;
+      font-size: 20px;
+  }
+#data{
+    width: 600px;
+    border: 1px solid grey;
+    border-radius: 2%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding:20px;
+}

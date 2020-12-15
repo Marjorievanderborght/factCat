@@ -5,11 +5,10 @@
   <meta charset="utf-8">
   <title>Création d'un FACT API sur les chats</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/app.js"></script>
 </head>
 <body>
 <img id="logo" src="img/cat.png">
-<p id="RandomCat">Random Cat</p>
 <div id="data">
+<script src="js/app.js"></script>
 </body>
 </html>

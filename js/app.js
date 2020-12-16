@@ -8,6 +8,7 @@ function randomFact() {
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         var json = JSON.parse(this.responseText);
+        console.log(json);
         parseResponse(json);
       } 
     };
@@ -16,11 +17,9 @@ function randomFact() {
   }
   
   function parseResponse(json) {
-    document.getElementById("data").innerHTML = "<b>" + json["value"] + "</b";
+    document.getElementById("data").innerHTML = "<b>" + json["text"] + "</b>";
   }
   
-  document.getElementById("logo").addEventListener("click", function() {
-    randomFact();
-  });
+  document.getElementById("logo").addEventListener("click", randomFact);
 
   randomFact();

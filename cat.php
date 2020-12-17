@@ -7,16 +7,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<p id="randomindex">RANDOM FACTS</p>
-<div>
-  <img id="logocat" src="img/cat.png">  
-  <img id="logodog" src="img/dog.png">
-  <img id="logohorse" src="img/horse.png">
-  <div id="data"></div>
-</div>
+<img id="logocat" src="img/cat.png">
+<div id="data"></div>
+<a id="retourindex" href="index.php">Page d'accueil</a>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="js/cat.js"></script>
-<script src="js/dog.js"></script>
-<script src="js/horse.js"></script>
+<script src="js/app.js"></script>
 </html>
